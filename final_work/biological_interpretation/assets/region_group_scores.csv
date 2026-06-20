@@ -1,0 +1,17 @@
+region,marker_group,median_of_group_median_z,top_group_markers
+A_lower_left_crypt_mucosa,nuclear,0.7568447850811615,Ki67; Hoechst1; DRAQ5
+A_lower_left_crypt_mucosa,epithelial,0.0,CDX2; CD49f; CK7; Cytokeratin; CD66
+A_lower_left_crypt_mucosa,immune,0.0,CD138; CD8; CD45RO; CD19; CD206
+A_lower_left_crypt_mucosa,stromal_vascular,0.0,Vimentin; CD90; CD31; CD34; CD36
+B_upper_right_stromal_fold,nuclear,-0.385903845056192,Ki67; DRAQ5; Hoechst1
+B_upper_right_stromal_fold,epithelial,0.0,CD49a; SOX9; CD44; Cytokeratin; CD66
+B_upper_right_stromal_fold,immune,0.0,CD56; CD68; CD8; CD127; CD138
+B_upper_right_stromal_fold,stromal_vascular,0.0,aSMA; Podoplanin; CollagenIV; FAP; CD31
+C_right_vessel_field,nuclear,-0.3446794134106968,DRAQ5; Hoechst1; Ki67
+C_right_vessel_field,epithelial,0.0,Cytokeratin; CD66; MUC1; MUC2; ITLN1
+C_right_vessel_field,immune,0.0,CD206; CD163; CD45; CD57; CD15
+C_right_vessel_field,stromal_vascular,0.0,Vimentin; FAP; CD31; CD34; CD36
+whole_qc,nuclear,0.0,Hoechst1; DRAQ5; Ki67
+whole_qc,epithelial,0.0,Cytokeratin; CK7; CDX2; SOX9; CD49f
+whole_qc,immune,0.0,CD45; CD21; CD206; CD163; CD68
+whole_qc,stromal_vascular,0.0,Vimentin; aSMA; FAP; CollagenIV; CD31

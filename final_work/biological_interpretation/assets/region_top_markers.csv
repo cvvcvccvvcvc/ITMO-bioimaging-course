@@ -1,0 +1,61 @@
+region,marker,median_robust_z_log1p,raw_median,interpretation
+A_lower_left_crypt_mucosa,CD138,11.686458852306673,0.8129936689779922,plasma cells; also epithelial surface contexts
+A_lower_left_crypt_mucosa,CD8,1.597960486907429,0.12635493137567821,CD8 T cells / intraepithelial lymphocytes
+A_lower_left_crypt_mucosa,CD45RO,1.1831851708281969,110.13106015737372,memory T cells / activated lymphocytes
+A_lower_left_crypt_mucosa,CD19,1.1730770536076442,86.88862781954887,B cells/lymphoid aggregates
+A_lower_left_crypt_mucosa,CDX2,1.1608573132401563,345.45692842354333,intestinal epithelial nuclei
+A_lower_left_crypt_mucosa,CD206,1.0192459087125023,2.697985347985348,M2-like macrophages
+A_lower_left_crypt_mucosa,CD161,1.0186747502119373,54.961829915021404,MAIT/NK/T-cell subsets
+A_lower_left_crypt_mucosa,NKG2G,0.9543930929125225,104.29576886363132,NK/cytotoxic immune context
+A_lower_left_crypt_mucosa,Ki67,0.928728371563123,85.7969810839449,"proliferating nuclei, crypt transit-amplifying cells"
+A_lower_left_crypt_mucosa,CD123,0.8670080093690048,547.9669148936171,plasmacytoid dendritic cells; sparse
+A_lower_left_crypt_mucosa,Hoechst1,0.7568447850811615,10710.391134880349,all nuclei; use for tissue geometry and segmentation
+A_lower_left_crypt_mucosa,CD16,0.6966421750406082,56.35732083531087,myeloid/NK cells
+A_lower_left_crypt_mucosa,CD49f,0.6654068569457068,443.53716647775315,basal epithelial/basement-membrane interface
+A_lower_left_crypt_mucosa,CK7,0.6612264492419457,58.905673274094326,patchy epithelial keratin; not dominant in normal colon
+A_lower_left_crypt_mucosa,BCL2,0.6274550674445507,270.2419677109974,lymphoid survival; can mark crypt/immune contexts
+B_upper_right_stromal_fold,CD49a,0.5077793224020055,2275.9874551971325,collagen-binding stromal/epithelial/TRM contexts
+B_upper_right_stromal_fold,CD56,0.5068029331138894,566.0466417910447,"NK cells, neural, neuroendocrine/ICC-like contexts"
+B_upper_right_stromal_fold,CD68,0.44776529790555936,0.1744186046511628,macrophages/mononuclear phagocytes
+B_upper_right_stromal_fold,CD8,0.4416864796691244,0.0601851851851851,CD8 T cells / intraepithelial lymphocytes
+B_upper_right_stromal_fold,aSMA,0.3774105453215829,1450.0,"smooth muscle, pericytes, myofibroblasts"
+B_upper_right_stromal_fold,Podoplanin,0.36902983413620627,18.06388888888889,lymphatic endothelium and fibroblast-like stroma
+B_upper_right_stromal_fold,SOX9,0.36721543000424167,428.5565610859729,crypt/progenitor and glandular epithelial nuclei
+B_upper_right_stromal_fold,CD44,0.27249534562355404,680.1993006993007,epithelial stem/immune/stromal adhesion contexts
+B_upper_right_stromal_fold,CollagenIV,0.18244295801469582,809.844537815126,epithelial basement membrane and vascular ECM
+B_upper_right_stromal_fold,CD127,0.1717320335755355,0.9345454545454546,T-cell/ILC survival receptor
+B_upper_right_stromal_fold,CD138,0.050475440456931434,0.0355113636363636,plasma cells; also epithelial surface contexts
+B_upper_right_stromal_fold,FAP,0.038508543904698045,184.73407202216063,activated fibroblasts/stromal bands
+B_upper_right_stromal_fold,CD36,0.0,0.0,"endothelium, macrophage, stromal contexts"
+B_upper_right_stromal_fold,CD11c,0.0,0.0,dendritic cells/myeloid APC
+B_upper_right_stromal_fold,aDefensin5,0.0,0.0,Paneth cells; expected rare/low in colon
+C_right_vessel_field,CD206,0.4340905594515731,1.353658536585366,M2-like macrophages
+C_right_vessel_field,Vimentin,0.30852094919545,101.10561056105612,"mesenchymal stroma, endothelium, some immune cells"
+C_right_vessel_field,FAP,0.14514922685960754,204.0759493670886,activated fibroblasts/stromal bands
+C_right_vessel_field,CD163,0.021729992395892222,0.6566666666666666,M2-like/resident macrophages
+C_right_vessel_field,HLADR,0.0,0.0,antigen-presenting cells; possible activated epithelium
+C_right_vessel_field,CHGA,0.0,0.0,enteroendocrine cells
+C_right_vessel_field,MUC2,0.0,0.0,goblet cells/mucus in colon epithelium
+C_right_vessel_field,MUC1,0.0,0.0,luminal/apical epithelial surface
+C_right_vessel_field,CD117,0.0,0.0,mast cells and interstitial cells of Cajal
+C_right_vessel_field,CD31,0.0,0.0,blood vascular endothelium
+C_right_vessel_field,CD36,0.0,0.0,"endothelium, macrophage, stromal contexts"
+C_right_vessel_field,CD69,0.0,0.0,activated/tissue-resident lymphocytes
+C_right_vessel_field,CD38,0.0,0.0,plasma cells and activated immune cells
+C_right_vessel_field,CD3,0.0,0.0,T lymphocytes
+C_right_vessel_field,CD66,0.0,0.0,mature colonocytes/epithelial and granulocyte contexts
+whole_qc,Hoechst1,0.0,6457.635477582846,all nuclei; use for tissue geometry and segmentation
+whole_qc,CD69,0.0,0.0,activated/tissue-resident lymphocytes
+whole_qc,CHGA,0.0,0.0,enteroendocrine cells
+whole_qc,FAP,0.0,178.20729366602689,activated fibroblasts/stromal bands
+whole_qc,CollagenIV,0.0,630.3524590163935,epithelial basement membrane and vascular ECM
+whole_qc,CD21,0.0,0.0,B cells and follicular dendritic-cell networks
+whole_qc,BCL2,0.0,89.21303258145363,lymphoid survival; can mark crypt/immune contexts
+whole_qc,CD31,0.0,0.0,blood vascular endothelium
+whole_qc,Ki67,0.0,10.23194748358862,"proliferating nuclei, crypt transit-amplifying cells"
+whole_qc,SOX9,0.0,73.24902723735408,crypt/progenitor and glandular epithelial nuclei
+whole_qc,CD8,0.0,0.0359477124183006,CD8 T cells / intraepithelial lymphocytes
+whole_qc,CD36,0.0,0.0,"endothelium, macrophage, stromal contexts"
+whole_qc,CD138,0.0,0.0329985652797704,plasma cells; also epithelial surface contexts
+whole_qc,CD49f,0.0,23.781725888324875,basal epithelial/basement-membrane interface
+whole_qc,MUC1,0.0,0.0,luminal/apical epithelial surface

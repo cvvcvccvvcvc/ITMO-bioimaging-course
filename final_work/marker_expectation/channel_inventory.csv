@@ -1,0 +1,55 @@
+channel_index,marker,category,expected_pattern,used_in_current_work
+0,Hoechst1,nuclear,DNA/nuclei; should outline essentially all nuclei.,True
+1,MUC1,epithelial/mucin,Apical epithelial mucin/glycoprotein; patchy epithelial signal is expected.,False
+2,CD25,immune/T-reg/activation,Activated/regulatory T cells; sparse immune marker.,False
+3,CDX2,epithelial/nuclear TF,Intestinal epithelial nuclear transcription factor.,False
+4,Synaptophysin,neuroendocrine/neural,Sparse neuroendocrine or neural structures expected.,False
+5,CD57,immune/NK/T,NK/senescent T/neural contexts; sparse immune-like signal.,False
+6,NKG2G,immune/NK,NK-like marker name in panel; should be immune-associated if specific.,False
+7,Vimentin,stromal,Mesenchymal/stromal cells and some immune cells.,True
+8,CD4,immune/T-helper,Helper T cells and some myeloid contexts.,True
+9,CD19,immune/B,B cells; should form lymphoid aggregate or scattered lamina propria signal.,True
+10,CD7,immune/T/NK,T/NK cells; should overlap CD3/CD45.,False
+11,CD11c,immune/myeloid/APC,Dendritic/myeloid antigen-presenting cells.,False
+12,CD161,immune/T/NK,MAIT/NK/T subsets; immune-rich areas.,False
+13,CD15,immune/granulocyte,Granulocytes; sparse or luminal inflammatory signal.,False
+14,CD34,vascular/stromal,Endothelium/stromal progenitor; vessel/stromal signal.,False
+15,CD16,immune/myeloid/NK,Myeloid/NK marker; sparse/patchy.,False
+16,ITLN1,epithelial/goblet,Goblet-cell/epithelial lectin.,False
+17,HLADR,immune/APC,Antigen-presenting cells and some epithelium; immune-rich areas.,False
+18,CD123,immune/pDC,Plasmacytoid dendritic cells; sparse.,False
+19,CD66,epithelial/myeloid,CEACAM family; epithelial/myeloid localization can occur.,False
+20,CD3,immune/T,T cells; should overlap CD45/CD7 and subsets CD4/CD8.,True
+21,CD45RO,immune/T-memory,Memory T cells; should overlap immune-rich areas.,True
+22,CD38,immune/plasma,Activated B/plasma cells; immune-rich lamina propria.,False
+23,CD90,stromal/T,Fibroblast/stromal and T-cell contexts.,False
+24,CK7,epithelial,Epithelial keratin; limited/patchy in colon is plausible.,False
+25,aSMA,stromal/smooth muscle,Smooth muscle/pericytes/myofibroblasts; fiber-like structures.,True
+26,CD117,immune/mast,Mast cells/interstitial cells; sparse punctate.,False
+27,CD127,immune/T,IL7R; T-cell subset marker.,False
+28,MUC2,epithelial/mucin,Goblet-cell mucin; strong granular/mucus epithelial signal is expected.,True
+29,CHGA,neuroendocrine,Enteroendocrine cells; sparse punctate epithelial cells expected.,False
+30,FAP,stromal/fibroblast,Activated fibroblasts; stromal bands.,True
+31,CollagenIV,ECM/basement membrane,Basement membrane/vascular ECM; linear structures.,True
+32,CD21,immune/B/FDC,B-cell/follicular dendritic network marker; lymphoid follicles.,False
+33,BCL2,immune/survival,Anti-apoptotic marker; lymphocytes/crypt contexts possible.,False
+34,CD31,vascular/endothelial,Blood endothelium; vessel-like loops/tubes.,True
+35,Ki67,nuclear/proliferation,"Proliferating nuclear cells, especially crypt proliferative zones.",True
+36,SOX9,epithelial/nuclear TF,Crypt progenitor/stem epithelial nuclear marker.,True
+37,CD8,immune/T-cytotoxic,Cytotoxic T cells; should overlap CD3/CD45.,True
+38,CD36,vascular/stromal/immune,Endothelium/adipocyte/macrophage contexts; patchy.,False
+39,CD138,immune/plasma/epithelial,Plasma cells and epithelial contexts; should not be universal.,False
+40,CD69,immune/activation,Activated tissue-resident immune cells; sparse/patchy.,False
+41,CD49f,epithelial/basal,Integrin alpha-6; epithelial basement/basal compartments.,False
+42,CD49a,epithelial/stromal,Integrin alpha-1; tissue-resident immune/stromal/epithelial contexts.,False
+43,CD68,immune/macrophage,Macrophages; lamina propria puncta.,True
+44,OLFM4,epithelial/stem,Crypt stem/progenitor-associated epithelial marker.,False
+45,Podoplanin,lymphatic/stromal,Lymphatic endothelium and fibroblast-like stroma.,True
+46,CD45,immune/pan-leukocyte,Pan-leukocyte; lamina propria and lymphoid aggregates.,True
+47,CD163,immune/macrophage,Macrophage subset; should overlap CD68/CD206 partly.,False
+48,CD44,epithelial/immune/stromal,Adhesion/stem/immune marker; broad but not pan-everything signal.,False
+49,CD56,immune/NK/neural,NK cells/neural/endocrine contexts; sparse.,False
+50,Cytokeratin,epithelial,Pan-epithelial cytoskeleton.,True
+51,CD206,immune/macrophage,Macrophage/mannose receptor; should overlap macrophage-rich stroma.,False
+52,aDefensin5,epithelial/Paneth,"Paneth-cell marker; low/rare in colon, strong diffuse signal would be suspect.",False
+53,DRAQ5,nuclear,DNA/nuclei; should broadly match Hoechst.,False

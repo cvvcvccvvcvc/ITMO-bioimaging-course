@@ -1,0 +1,13 @@
+{
+  "component": 57,
+  "crop_yx": [
+    8247,
+    9015,
+    4971,
+    5739
+  ],
+  "max_non_nuclear_positive_markers": 40,
+  "mean_non_nuclear_positive_markers": 24.75,
+  "nuclear_high_fraction": 0.0,
+  "hit_markers": "CD25;CDX2;Synaptophysin;CD57;NKG2G;CD4;CD19;CD7;CD11c;CD161;CD34;CD16;HLADR;CD123;CD3;CD45RO;CK7;CD117;CD127;CHGA;FAP;CD21;CD8;CD69"
+}

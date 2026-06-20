@@ -1,0 +1,57 @@
+# macOS / editors
+.DS_Store
+._*
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Bioimaging raw data and large local artifacts
+data/
+final_work/data/
+*.ome.tif
+*.ome.tiff
+*.tif
+*.tiff
+*.zarr
+*.zarr/
+*.h5
+*.h5ad
+*.czi
+*.nd2
+*.svs
+*.qptiff
+
+# Models and generated outputs
+models/
+cellpose_models/
+final_work/outputs/
+*.pt
+*.pth
+*.ckpt
+
+# Local/generated analysis caches
+final_work/marker_expectation/.mplconfig/
+final_work/marker_expectation/downsampled_mean_f16.npz
+*.backup
+
+# Local course scratch files outside the final project
+lesson*.ipynb
+watershed.ipynb
+commands.txt
+colorwheel.png

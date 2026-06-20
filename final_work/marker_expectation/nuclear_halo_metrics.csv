@@ -1,0 +1,2 @@
+marker,roi_y0,roi_x0,core_median,ring_median,far_local_median,low_background_median,ring_to_far_ratio,ring_to_low_background_ratio,nucleus_core_pixels,ring_pixels,far_pixels
+Hoechst1,4694,598,28103.0,15759.0,6031.0,651.0,2.6129995025700548,24.207373271889402,46612,86083,121498

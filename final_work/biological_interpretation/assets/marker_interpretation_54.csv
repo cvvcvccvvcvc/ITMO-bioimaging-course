@@ -1,0 +1,55 @@
+index,marker,group,meaning,what_it_tells_us,observed_global_pattern,mean_intensity,zero_fraction,p99,p999
+0,Hoechst1,nuclear,DNA dye,all nuclei; use for tissue geometry and segmentation,DNA/nuclei; should outline essentially all nuclei.,1013.3769161635884,0.002257186764229,14677.0,28275.691000000108
+1,MUC1,epithelial/mucin,apical epithelial mucin,luminal/apical epithelial surface,Apical epithelial mucin/glycoprotein; patchy epithelial signal is expected.,25.056939239007768,0.9578997854276392,874.0,3090.691000000108
+2,CD25,immune/T-reg/activation,IL2RA,activated/T-reg immune cells; sparse if specific,Activated/regulatory T cells; sparse immune marker.,17.80009681743968,0.9975668331775122,0.0,848.691000000108
+3,CDX2,epithelial/nuclear TF,intestinal nuclear transcription factor,intestinal epithelial nuclei,Intestinal epithelial nuclear transcription factor.,84.24594317883155,0.2934083442281887,1192.0,4179.073000000324
+4,Synaptophysin,neuroendocrine/neural,synaptic vesicle protein,neuroendocrine cells and neural elements,Sparse neuroendocrine or neural structures expected.,17.573362809940484,0.982412347180058,192.0,3771.691000000108
+5,CD57,immune/NK/T,HNK-1 epitope,NK/senescent T/neural or rare epithelial contexts,NK/senescent T/neural contexts; sparse immune-like signal.,20.887090033064386,0.9973352583190715,0.0,1096.0
+6,NKG2G,immune/NK,NKG2D/CD314 panel marker,NK/cytotoxic immune context,NK-like marker name in panel; should be immune-associated if specific.,45.372968427750855,0.3772860626024384,239.0,2693.382000000216
+7,Vimentin,stromal,intermediate filament,"mesenchymal stroma, endothelium, some immune cells",Mesenchymal/stromal cells and some immune cells.,148.8320407542291,0.8839617523767198,3537.0,9963.073000000324
+8,CD4,immune/T-helper,T-helper marker,CD4 T cells; also some APC contexts,Helper T cells and some myeloid contexts.,44.901858048925526,0.9715658795225748,955.0,4774.382000000216
+9,CD19,immune/B,B-cell receptor complex,B cells/lymphoid aggregates,B cells; should form lymphoid aggregate or scattered lamina propria signal.,44.662481821741856,0.4304750304224763,246.0,3201.45500000054
+10,CD7,immune/T/NK,T/NK marker,T/NK cells with CD3 or CD56/NKG2D support,T/NK cells; should overlap CD3/CD45.,5.000628776769202,0.9949530463825188,0.0,328.0
+11,CD11c,immune/myeloid/APC,integrin ITGAX,dendritic cells/myeloid APC,Dendritic/myeloid antigen-presenting cells.,32.59632468289185,0.988719726663809,51.0,4717.382000000216
+12,CD161,immune/T/NK,KLRB1,MAIT/NK/T-cell subsets,MAIT/NK/T subsets; immune-rich areas.,36.62147982542138,0.4845536097375492,169.0,2375.382000000216
+13,CD15,immune/granulocyte,Lewis X/SSEA-1,granulocytes/neutrophil-rich foci,Granulocytes; sparse or luminal inflammatory signal.,40.454660199404785,0.9621582376995452,1425.0,3648.691000000108
+14,CD34,vascular/stromal,endothelial/progenitor marker,vascular endothelium and some stromal cells,Endothelium/stromal progenitor; vessel/stromal signal.,51.71444947154428,0.9563060537939664,1197.0,4840.764000000432
+15,CD16,immune/myeloid/NK,Fc gamma receptor,myeloid/NK cells,Myeloid/NK marker; sparse/patchy.,41.489450307991405,0.4163618737509845,167.0,3042.5280000008643
+16,ITLN1,epithelial/goblet,intelectin-1,goblet/secretory epithelial signal,Goblet-cell/epithelial lectin.,26.969840704694604,0.9776111091120552,835.0,3581.0
+17,HLADR,immune/APC,MHC class II,antigen-presenting cells; possible activated epithelium,Antigen-presenting cells and some epithelium; immune-rich areas.,33.91217900683951,0.9753684312860263,676.9099999999162,3464.073000000324
+18,CD123,immune/pDC,IL3RA,plasmacytoid dendritic cells; sparse,Plasmacytoid dendritic cells; sparse.,141.7750241833172,0.1957590342076362,1957.0,4618.691000000108
+19,CD66,epithelial/myeloid,CEACAM family,mature colonocytes/epithelial and granulocyte contexts,CEACAM family; epithelial/myeloid localization can occur.,46.81462027509957,0.9751526384488336,826.0,10249.0
+20,CD3,immune/T,T-cell receptor complex,T lymphocytes,T cells; should overlap CD45/CD7 and subsets CD4/CD8.,17.633736911180677,0.9943347173113832,0.0,2371.691000000108
+21,CD45RO,immune/T-memory,PTPRC memory isoform,memory T cells / activated lymphocytes,Memory T cells; should overlap immune-rich areas.,49.84222996382971,0.3396805045533235,309.0,3140.691000000108
+22,CD38,immune/plasma,activation/plasma-cell marker,plasma cells and activated immune cells,Activated B/plasma cells; immune-rich lamina propria.,5.75010144683258,0.9931599141710556,0.0,1543.691000000108
+23,CD90,stromal/T,THY1,fibroblast/stromal and some T-cell contexts,Fibroblast/stromal and T-cell contexts.,509.1177188014165,0.7715012363635445,7113.0,18131.382000000216
+24,CK7,epithelial,keratin 7,patchy epithelial keratin; not dominant in normal colon,Epithelial keratin; limited/patchy in colon is plausible.,30.982953659987505,0.6622848621166889,211.0,1538.0
+25,aSMA,stromal/smooth muscle,ACTA2,"smooth muscle, pericytes, myofibroblasts",Smooth muscle/pericytes/myofibroblasts; fiber-like structures.,528.1535989005613,0.8043170246134299,7859.0,15656.382000000216
+26,CD117,immune/mast,KIT,mast cells and interstitial cells of Cajal,Mast cells/interstitial cells; sparse punctate.,23.23350184323487,0.9864076921150708,208.0,3620.382000000216
+27,CD127,immune/T,IL7R,T-cell/ILC survival receptor,IL7R; T-cell subset marker.,15.98681625708113,0.894188765178885,60.0,574.691000000108
+28,MUC2,epithelial/mucin,gel-forming mucin,goblet cells/mucus in colon epithelium,Goblet-cell mucin; strong granular/mucus epithelial signal is expected.,7.305315153286564,0.991273825854444,0.0,1793.0
+29,CHGA,neuroendocrine,chromogranin A,enteroendocrine cells,Enteroendocrine cells; sparse punctate epithelial cells expected.,9.852721798948412,0.9983962099581188,0.0,455.691000000108
+30,FAP,stromal/fibroblast,fibroblast activation protein,activated fibroblasts/stromal bands,Activated fibroblasts; stromal bands.,104.7255089964886,0.5475764181250833,1104.0,3795.0
+31,CollagenIV,ECM/basement membrane,basement-membrane ECM,epithelial basement membrane and vascular ECM,Basement membrane/vascular ECM; linear structures.,302.88902163673026,0.7502480828526655,3239.0,6259.073000000324
+32,CD21,immune/B/FDC,CR2,B cells and follicular dendritic-cell networks,B-cell/follicular dendritic network marker; lymphoid follicles.,7.979326614821675,0.9990033337941684,0.0,164.0
+33,BCL2,immune/survival,anti-apoptotic protein,lymphoid survival; can mark crypt/immune contexts,Anti-apoptotic marker; lymphocytes/crypt contexts possible.,50.18578914209563,0.7480227968140518,800.0,2535.382000000216
+34,CD31,vascular/endothelial,PECAM1,blood vascular endothelium,Blood endothelium; vessel-like loops/tubes.,96.23591515627464,0.9696074253778688,3083.909999999916,13654.0
+35,Ki67,nuclear/proliferation,cell-cycle marker,"proliferating nuclei, crypt transit-amplifying cells","Proliferating nuclear cells, especially crypt proliferative zones.",91.9051518619734,0.8414979726415506,669.9099999999162,22192.073000000324
+36,SOX9,epithelial/nuclear TF,epithelial progenitor TF,crypt/progenitor and glandular epithelial nuclei,Crypt progenitor/stem epithelial nuclear marker.,175.24891503864598,0.8393387501438794,3388.0,6754.0
+37,CD8,immune/T-cytotoxic,cytotoxic T-cell marker,CD8 T cells / intraepithelial lymphocytes,Cytotoxic T cells; should overlap CD3/CD45.,10.185644073756327,0.9634755104063492,49.0,1372.691000000108
+38,CD36,vascular/stromal/immune,scavenger/fatty-acid receptor,"endothelium, macrophage, stromal contexts",Endothelium/adipocyte/macrophage contexts; patchy.,16.779593509843668,0.990953861155669,0.0,3811.0
+39,CD138,immune/plasma/epithelial,syndecan-1,plasma cells; also epithelial surface contexts,Plasma cells and epithelial contexts; should not be universal.,8.968818166495273,0.9621349434361836,92.90999999991618,1015.691000000108
+40,CD69,immune/activation,early activation marker,activated/tissue-resident lymphocytes,Activated tissue-resident immune cells; sparse/patchy.,5.737532276863789,0.996935762754556,0.0,576.0
+41,CD49f,epithelial/basal,integrin alpha-6,basal epithelial/basement-membrane interface,Integrin alpha-6; epithelial basement/basal compartments.,72.93041784689882,0.8596632053537666,1867.0,4022.691000000108
+42,CD49a,epithelial/stromal,integrin alpha-1,collagen-binding stromal/epithelial/TRM contexts,Integrin alpha-1; tissue-resident immune/stromal/epithelial contexts.,657.6445618416399,0.7933715826400292,8015.0,12025.382000000216
+43,CD68,immune/macrophage,lysosomal macrophage marker,macrophages/mononuclear phagocytes,Macrophages; lamina propria puncta.,5.706181154877813,0.966445792018632,37.0,667.0
+44,OLFM4,epithelial/stem,intestinal stem/progenitor marker,crypt-base/progenitor epithelial cells,Crypt stem/progenitor-associated epithelial marker.,21.34400099069008,0.9964993688243636,0.0,6143.837000000756
+45,Podoplanin,lymphatic/stromal,PDPN/D2-40,lymphatic endothelium and fibroblast-like stroma,Lymphatic endothelium and fibroblast-like stroma.,32.06028333357533,0.8500428639697086,738.0,2564.691000000108
+46,CD45,immune/pan-leukocyte,PTPRC pan-leukocyte,all leukocytes except mature erythroid cells,Pan-leukocyte; lamina propria and lymphoid aggregates.,52.32566122986556,0.9727151473525238,1806.0,6954.0
+47,CD163,immune/macrophage,scavenger receptor,M2-like/resident macrophages,Macrophage subset; should overlap CD68/CD206 partly.,54.38374416038911,0.8993494229987818,1437.0,6488.073000000324
+48,CD44,epithelial/immune/stromal,adhesion receptor,epithelial stem/immune/stromal adhesion contexts,Adhesion/stem/immune marker; broad but not pan-everything signal.,207.72147174502652,0.7910505312964846,2641.0,5310.073000000324
+49,CD56,immune/NK/neural,NCAM1,"NK cells, neural, neuroendocrine/ICC-like contexts",NK cells/neural/endocrine contexts; sparse.,209.18729230597003,0.7695087035742911,3191.0,13944.45500000054
+50,Cytokeratin,epithelial,pan-keratin,epithelial cytoskeleton,Pan-epithelial cytoskeleton.,168.8361216166766,0.96466232892552,6805.0,14688.691000000108
+51,CD206,immune/macrophage,mannose receptor,M2-like macrophages,Macrophage/mannose receptor; should overlap macrophage-rich stroma.,74.7921902457429,0.905300465485456,2055.909999999916,8924.528000000864
+52,aDefensin5,epithelial/Paneth,DEFA5,Paneth cells; expected rare/low in colon,"Paneth-cell marker; low/rare in colon, strong diffuse signal would be suspect.",0.3057074838134329,0.9887522691916216,4.0,69.0
+53,DRAQ5,nuclear,DNA dye,all nuclei; should match Hoechst,DNA/nuclei; should broadly match Hoechst.,282.38020994507224,0.2684927727811898,4214.0,7170.691000000108

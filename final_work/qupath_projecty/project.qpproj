@@ -1,0 +1,25 @@
+{
+  "version": "0.7.0",
+  "createTimestamp": 1781256989846,
+  "modifyTimestamp": 1781256989846,
+  "uri": "file:/Users/cvv/code/Bioinformatics/HW/bioimage/final_work/qupath_projecty/project.qpproj",
+  "lastID": 1,
+  "images": [
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/Users/cvv/code/Bioinformatics/HW/bioimage/final_work/data/reg001_expr.ome.tif",
+        "args": [
+          "--series",
+          "0"
+        ]
+      },
+      "entryID": 1,
+      "randomizedName": "6e5ab6a0-a37c-4a82-a94b-e064cad7cb55",
+      "imageName": "reg001_expr.ome.tif - default.png",
+      "metadata": {},
+      "tags": []
+    }
+  ]
+}
