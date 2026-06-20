@@ -15,14 +15,13 @@
 
 ## Данные
 
-Сырые microscopy data, Zarr/TIFF, модели Cellpose и сгенерированные `outputs` не хранятся в git из-за размера. Для воспроизведения положите локальные данные в:
+Сырые microscopy data, Zarr/TIFF, модели Cellpose и сгенерированные `outputs` не хранятся в git из-за размера. Для воспроизведения нужен исходный OME-TIFF из HuBMAP:
 
 ```text
 final_work/data/reg001_expr.ome.tif
-final_work/data/channels/*.tif
 ```
 
-Использованный HuBMAP dataset: <https://portal.hubmapconsortium.org/browse/dataset/a0946b9a99b0940c5e9eb7587deafee5>
+Каналы `final_work/data/channels/*.tif`, маска `final_work/data/cellpose_hoechst_mask.tif` и папка `final_work/outputs/` создаются ноутбуками заново. Подробная инструкция по получению данных: [docs/DATA.md](docs/DATA.md).
 
 ## Запуск
 
@@ -33,4 +32,4 @@ pip install -r final_work/requirements.txt
 jupyter lab
 ```
 
-После этого ноутбуки можно запускать по порядку из `final_work`.
+После этого откройте Jupyter из папки `final_work` и запускайте ноутбуки по порядку.
